@@ -24,7 +24,7 @@ class AddFragment : BottomSheetDialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding=FragmentAddBinding.inflate(inflater,container,false)
+        this.binding =FragmentAddBinding.inflate(inflater,container,false)
             binding.post.setOnClickListener{
                 activity?.startActivity(Intent(requireContext(),PostActivity::class.java))
             }
