@@ -112,7 +112,7 @@ public class home extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        int a = JOptionPane.showConfirmDialog(null,"Do you really want to log out","Select",JOptionPane.YES_NO_OPTION);
+        int a = JOptionPane.showConfirmDialog(this,"Do you really want to log out","Select",JOptionPane.YES_NO_OPTION);
         if(a==0)
         {
             setVisible(false);
